@@ -33,3 +33,39 @@ else if (media >= 5.0 ) {
 else if (media < 5.0) {
     console.log("REPROVADO")
 }
+
+
+// ------------------------------------------------------------------------------------------
+
+//receba 4 notas de um aluno
+
+alert"informe as notas de 0 a 10"
+
+let nota1 = parseFloat (prompt ("Digite a primeira nota: ")); 
+let nota2 = parseFloat (prompt ("Digite a segunda nota: "));
+let nota3 = parseFloat (prompt ("Digite a terceira nota: "));
+let nota4 = parseFloat (prompt ("Digite a quarta nota: "));
+
+//calcule e imprima a media aritmetica das notas
+//precedencia de operadores em javascript e semelhante ao ensinado na escola
+//multiplicacao e divisao sao realizado primeiro
+//depois a adicao e subtracao 
+//tofixed(2) --> define quantas casas decimais vc quer que aparece 1, 2, 3 ou 4 etc... 
+
+let media = (nota1 + nota2 + nota3 + nota4) / 4
+console.log("a media do aluno e: " + media.toFixed(2) )
+
+if(media >=7){
+    console.log ("aprovado")
+}
+
+else if(media < 7 && media >= 5) {
+    console.log("RECUPERACAO")
+}
+
+else {
+    console.log ("REPROVADO")
+}
+
+
+

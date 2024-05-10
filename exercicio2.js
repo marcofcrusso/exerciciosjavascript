@@ -39,3 +39,15 @@ else {
     console.log("numero invalido");
 }
 
+// -----------------------------------------------------------------------------------
+
+// // OUTRA FORMA DE FAZER
+
+// let dia_semana = prompt("informe um numero de 1 a 7: ");
+
+// case "1":
+//     console.log("segunda-feira");
+//     break;
+
+// -------------------------------------------------------------------------------------
+
