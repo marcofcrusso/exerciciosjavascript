@@ -17,5 +17,30 @@ if (!isNaN(numero)) {
     console.log("Por favor, insira um número válido.");
 }
 
+//=========================================================================================================================================
+
+let numero = parseint(prompt ("Digite um numero para ver na tabuada: "));
+
+if(!isNaN(numero)) {
+
+for(let cont = 1; cont <= 10; cont++) {
+    console.log(numero + "x" + cont + "=" + (numero*cont));
+}
+
+} else {
+    console.log("Numero invalido. Por favor, digite um numero valido.")
+}
+
+
+
+console.log(isNaN("hello world"));//retorna true
+console.log(isNaN(123)); //retorna false
+
+
+
+
+
+
+
 
 

@@ -5,3 +5,6 @@ for(let num = 1; num <= 10; num++){
     console.log(num);   
 }
 
+//1 variavel
+//2 parametro defino condicao
+//
