@@ -10,7 +10,7 @@ console.log(fib1);
 console.log(fib2);
 
 //itera para calcular e imprimir os proximos 8 numeros da sequencia de fibonacci
-for(let i = 2; <10; i++){
+for(let i = 2; i <10; i++){
     let nextfib = fib1 + fib2;
     console.log(nextfib);
     
@@ -19,3 +19,4 @@ for(let i = 2; <10; i++){
     fib2 = nextfib;
 
 }
+
