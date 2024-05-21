@@ -56,3 +56,5 @@ const fecharPagina = () => {
     window.close ()
 }
 
+
+
